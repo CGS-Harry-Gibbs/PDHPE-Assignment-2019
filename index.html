@@ -5,6 +5,7 @@
 		<title>PDHPE Road Safety</title>
 		<style>
 			body{
+
 				background-color: black;
 				text-align: center;
 				font-family: sans-serif; 
@@ -30,15 +31,60 @@
 				position: fixed;
 				color: white;
 			}
+			#headDiv2{
+				background-image: url("https://bloximages.chicago2.vip.townnews.com/kearneyhub.com/content/tncms/assets/v3/editorial/0/e4/0e4f741c-d7f8-5869-8204-c325d726d611/5d0a33d0780fa.image.jpg?resize=1200%2C800");
+				background-size: cover;
+				background-repeat: no-repeat;
+				text-decoration: none;
+
+				margin-top: 40px;
+				margin-left: -8px;
+				margin-right: -1000px;
+				height: 100vh;
+				width: 100vw;
+				position: fixed;
+				color: black;
+				z-index: -1;
+
+			}
 			li{
 				list-style: inside;
 				font-size: 18px;
 
 			}
 			#mainDiv{
+
+				position: absolute;
+				left:0%;
 				padding-left: 300px;
 				padding-right: 300px;
 				font-size: 20px;
+				background-image: linear-gradient(to bottom right, #00d98d, #0c7d00);
+				background-size: cover;
+				background-repeat: no-repeat;
+
+
+			}
+			#empty{
+				height: 100vh;
+			}
+			@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(70vh);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(65vh);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(70vh);
+	}
+}
+			#floaty{
+				box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+				animation: float 6s ease-in-out infinite;
 			}
 		</style>
 		<script>
@@ -51,15 +97,28 @@
 			<p3 style="float:left; padding-left: 10px;padding-top: 20px; color: white;">Harry Gibbs</p3>
 
 			<p3 style="float:right; padding-right: 55px; padding-top: 20px;color: white;">18182</p3>
+		</div>
+		<div id="headDiv2">
+			<br/><br/><br/><br/><br/>
+			<br/><br/><br/><br/><br/><br/><br/>
 
+			<p1 style="text-decoration: none;">Driving, its dangers and how to stay safe.</p1>
+			<br>
+			<div id="floaty">
+				<img src="https://sulimanalomran.com/images/arrow-clipart-down-6.jpg" style="bottom:100px; position:absolute; text-align:center; width: 4vw;"/>
+
+			</div>
 		</div>
 		<br/><br/><br/><br/><br/>
+		<div id="empty">
 
-		<img src="https://www.stopsignsandmore.com/images/product/large/979.gif" style="float: left; height: 200px; display: inline-block;">
+		</div>
+		<img src="https://www.stopsignsandmore.com/images/product/large/979.gif" style="padding-top: 10px; float: left; height: 200px; display: inline-block;">
 
 		<img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Stopsign.svg" style="float: right; height: 200px; padding-top: 400px;">
 		<div id="mainDiv">
-			<p2 >
+			<br/><br/>
+			<p2>
 				As a Year 10 student I am really looking forward to driving formally and have always looked forward to it. But, I do understand that there are a lot of risks involved with driving,
 				and it’s good to take the time to assess and identify these before taking the actual driving
 				test.<br><br>
@@ -68,7 +127,7 @@
 				and once you are up and over the limit you can easily lose control of the car. As well as speeding can attract extremely bad fines from the traffic
 				camera, and at worst the possibility of a major car accident could occur.<br><br>
 
-				<img src="https://gajic.com.au/wp-content/uploads/2019/02/fatal-car-accident.jpg" style="float: left; height: 200px; padding: 5px 5px 5px 5px;">
+				<img src="https://gajic.com.au/wp-content/uploads/2019/02/fatal-car-accident.jpg" style="float: left; height: 200px; padding: 5px 5px 5px 5px; ">
 
 
 				I know that you can only become a really good driver with experience, but if you at least
@@ -78,8 +137,8 @@
 				accidents, as drivers are too desperate to check new messages that come in, and often text
 				while they’re driving. I know it is really tempting to look at the phone when you hear a
 				notification, but phones are really distracting and a major cause of traffic accidents.<br><br><br>
-
-				Lets take a specific driving skill/technique and compare it to the law. <br> <a style="font-weight: bold; color: red; text-decoration: underline;">Speeding Limits</a> <br>
+				<br/><br/>
+				Lets take a specific driving skill/technique and compare it to the law. <br><br/> <a style="font-weight: bold; color: red; text-decoration: underline;">Speeding Limits</a> <br><br/>
 				Because there are a lot of factors into determining what speed we drive (and maintaining that at a lawful pace), we must first look at some of the factors in which these speed are set:
 				<img src="https://www.mynrma.com.au/-/media/motoring-education/mobile-banner-school-zones.jpg?h=360&la=en&w=640&hash=29542338BD1C7992B90264188137DC9D" style="float: right; height: 200px; padding: 5px 5px 5px 5px;">
 
@@ -95,15 +154,16 @@
 
 				<br><br>
 				As a new driver (and for any current driver) we must obey and realise these rules are in place for a reason. Another incentive to make sure everyone is lawfully following these rules the government will also fine and punnish people who don't follow these laws. Speeding consequences involve:
+
 				<ul style="text-align:left;">
 					<li>Receiving a fine</li>
 					<li>Receiving demerit points</li>
 					<li>Losing your licence</li>
-					<li>Killing or injuring yourself, loved ones or other road users.</li>
+					<li><a style="font-weight: bold;">Killing</a> or <a style="font-weight: bold;">injuring yourself</a>, loved ones or other road users.</li>
 				</ul>
 			</p2>
 			<br>
-			<img src="https://www.vicroads.vic.gov.au/-/media/images/licences/learnercarimage.ashx?la=en&hash=F77A8B475D49E64980D0B99BE492E9FA" style="float: right; height: 200px; padding: 5px 5px 5px 5px;">
+			<img src="https://www.vicroads.vic.gov.au/-/media/images/licences/learnercarimage.ashx?la=en&hash=F77A8B475D49E64980D0B99BE492E9FA" style="float: right;height: 200px; padding: 5px 5px 5px 5px; padding-right: 20vw; ">
 			<p>
 				Some other important behaviours which we can generally look at while driving are:
 			</p>
